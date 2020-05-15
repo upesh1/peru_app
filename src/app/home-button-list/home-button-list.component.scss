@@ -1,0 +1,26 @@
+section.special,
+article.special {
+  text-align: center;
+}
+
+
+.button-container {
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+
+.button-list {
+  width: 50%;
+  height: 4em;
+  margin: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.top-pad {
+  padding-top: 10%;
+}

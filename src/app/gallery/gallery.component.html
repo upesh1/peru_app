@@ -1,0 +1,55 @@
+<div class="container">
+
+
+  <div class=" title-div row">
+    <div class="col">
+      <h2 mat-dialog-title>Gallery</h2>
+    </div>
+
+
+    <div class="col button-holder">
+      <a mat-mini-fab color="primary" aria-label="back" routerLink="/home" routerLinkActive="active" title="Back">
+        <mat-icon>keyboard_arrow_left</mat-icon>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <ngx-gallery [options]="galleryOptions" [images]="imageGallery"></ngx-gallery>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col" style="text-align:left;">
+      <button mat-stroked-button color="primary" (click)="previous()">Previous</button>
+
+    </div>
+
+    <div class="col" style="text-align: center;">
+      <h2>{{selectedItem.name}}</h2>
+    </div>
+
+    <div class="col" style="text-align:right;">
+      <button mat-stroked-button color="primary" (click)="next()">Next</button>
+
+    </div>
+  </div>
+
+  <div class="row my-background">
+    <div class="col">
+      <p class="detail" *ngIf="selectedItem != null">
+        {{selectedItem.details}}
+      </p>
+    </div>
+  </div>
+
+  <div *ngIf="selectedItem && selectedItem.id && selectedItem.id != ''" class="sketchfab-embed-wrapper">
+    <iframe *ngIf="selectedItem.id != ''" title="A 3D model" height="480" [src]="src" frameborder="0"
+      allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"
+      style="width: 100%;"></iframe>
+
+  </div>
+
+</div>

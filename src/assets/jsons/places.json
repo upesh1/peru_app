@@ -1,0 +1,34 @@
+[{
+    "name": "Abby's Place",
+    "id": 1,
+    "latitude": 37.49500600,
+    "longitude": -88.63011100,
+    "icon": "home.png",
+    "short_desc": "This is Abby's Place",
+    "description": "Full description of Abby's place",
+    "panoroma_link": "https://www.theasys.io/viewer/CMn1lDPDDRj01pOppASon3MR7oZDFb",
+    "explore_type": "panoroma"
+  },
+  {
+    "name": "Crow Knob",
+    "id": 2,
+    "latitude": 37.49845600,
+    "longitude": -88.63340000,
+    "icon": "marker-icon.png",
+    "short_desc": "This is Abby's Place",
+    "description": "Full description of Abby's place",
+    "panoroma_link": "https://www.theasys.io/viewer/RJmiaOsXMTopYX5gsCT9KX9m7r1LfC",
+    "explore_type": "panoroma"
+  },
+  {
+    "name": "Sand Cave",
+    "id": 3,
+    "latitude": 37.50176900,
+    "longitude": -88.64747800,
+    "icon": "marker-icon.png",
+    "short_desc": "This is Abby's Place",
+    "description": "Full description of Abby's place",
+    "panoroma_link": "https://www.theasys.io/viewer/3NciXLYl884tZIFEzy2SDW5Ri0sToX",
+    "explore_type": "panoroma"
+  }
+]

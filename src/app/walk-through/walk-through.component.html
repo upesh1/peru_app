@@ -1,0 +1,47 @@
+<!-- <div class="webgl-content">
+  <div id="unityContainer" style="width: 960px; height:600px"></div>
+  <div class="footer">
+    <div class="webgl-logos">Miller Grove Walkthrough</div>
+    <div class="fullscreen" (click)="unityInstance.SetFullscreen(1)"></div>
+    <div class="title">Walk-Through</div>
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="row title-div ">
+    <div class="col">
+      <h2 mat-dialog-title>Miller Grove Walk through</h2>
+    </div>
+    <div class="col button-holder">
+
+      <a mat-mini-fab color="primary" aria-label="back" routerLink="/home" routerLinkActive="active" title="Back">
+        <mat-icon>keyboard_arrow_left</mat-icon>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div id="unityContainer"></div>
+    </div>
+  </div>
+
+  <div class="row title-div">
+    <div class="col button-holder">
+      <button mat-raised-button (click)="unityInstance.SetFullscreen(1)">
+        <mat-icon>aspect_ratio</mat-icon> Full Screen
+      </button>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="webgl-content">
+  <div id="unityContainer" style="width: 960px; height: 600px"></div>
+  <div class="footer">
+    <div class="webgl-logo"></div>
+    <div class="fullscreen" (click)="unityInstance.SetFullscreen(1)"></div>
+    <div class="title">OnlyWalkThrough</div>
+  </div>
+</div> -->
